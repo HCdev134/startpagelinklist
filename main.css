@@ -1,0 +1,343 @@
+/* 
+  Google Fonts
+
+@import url('/home/shrug/.fonts/Profont For Powerline.ttf');
+
+
+
+THEME = {}, Color Graident Generator: https://coolors.co; 
+
+colors: #ffffff(white text),   
+        #e8a64f(orange), 
+        #933a6b(pink),
+        #00f7ff(Bright Blue),
+        #0074a1(Softer Darker Blue)
+}
+
+
+*/
+@import url("./assets/css/utility-stylers.css");
+/* @import url("./assets/css/navigation-menu.css"); */
+@import url("./assets/css/animationstyles.css");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+:root{
+    --base-font-style: 'Source Code Pro', monospace;
+    --base-heading-font-size: 1.25rem; 
+
+
+    --bg-one:#161616;
+    --bg-two: #212121;
+    --bg-three: #454545; 
+
+    --text-color-light:#ffffff;
+    --text-color-main: #e8a64f;
+    --text-color-accent: #933a6b;
+
+
+    --text-blu-dark: #0074a1;
+    --text-color-blu: #0fcff1;
+    --text-color-blu-neon: #00f7ff;
+
+    --bg-glassmorph-one: #10f0ad41; 
+
+    --goth-font: 'UnifrakturCook', cursive;
+}
+
+html,body{
+  min-height: 100%;
+  height:100%;
+  background:transparent;
+  color:#fff;
+}
+body{
+  height:auto;
+  max-width: 100%;
+
+}
+body ~ a, a {
+  margin-top:8px; 
+
+  color:var(--text-blu-dark) !important;
+  text-decoration: none !important;
+}
+
+
+/* parallax background */
+#particles-js canvas {
+  display: block;
+  vertical-align: bottom;
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+  -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease
+}
+
+#particles-js {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -10;
+  top: -10;
+  left: 0
+}
+.page-logo-gothfont{
+  font-family: 'UnifrakturCook', cursive;
+  letter-spacing: 4px;
+  font-size: 28px;
+  border: 2px solid transparent; 
+  line-height: 2.0;
+  color: var(--text-blu-dark);
+}
+
+.page-list-item a:hover{
+  color:#161515a2;
+  border-bottom: 2px solid var(--text-color-blu);
+}
+
+
+
+
+*{
+    font-style: var(--base-font-style);
+    font-size:24px;
+}
+
+
+  .bouncy{
+    animation:bouncy 7s infinite linear;
+    position:relative;
+    color: var(--text-color-blu);
+    }
+    @keyframes bouncy {
+    0%{top:0em}
+    40%{top:0em}
+    43%{top:-0.9em}
+    46%{top:0em}
+    48%{top:-0.4em}
+    50%{top:0em}
+    100%{top:0em;}
+    }
+
+
+.img {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+  }
+
+  #main_header, .main_header {
+    text-transform: capitalize;
+    text-align: center;
+  }
+  html{
+    background-color: var(--bg-one); 
+    color: #D5D5D5
+  }
+  body {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 300;
+    margin: 0px;
+  }
+  
+  h3 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 10px 0px;
+    color:var(--text-color-main);
+  
+  }
+  .tcontent > a{
+      margin-top:8px; 
+  }
+  a {
+    margin: auto;
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    color:var(--text-color-main);
+  }
+  
+  .tcontent {
+    display: flex;
+    flex-direction: column;
+    padding:1.5rem;
+    border: 4px solid transparent;
+    border-radius: 4px;
+  }
+  .tcontent li{
+    padding:10px; 
+    margin:15px;
+    list-style: none;
+  }
+  #startpage {
+    color: var(--text-color-main);
+  }
+  
+  #name {
+    color: var(--text-color-blu);
+  }
+
+  /* MY MODIFIED STYLES */
+  .bg-custom-x1{
+    background:#7e44ca94;
+    border-radius:12px; 
+  }
+  .table1 {
+    flex:1;
+    background:#00000099;
+    padding-top:1.33em;
+  }
+ 
+  .table2 {
+    flex:1;
+    background:#33333399;
+    padding-top:1.33em;
+  }
+  .table3-bg-x1{
+    flex:1;
+    background: #00000088;
+    padding-top:1.33em;
+    border:1px solid transparent;
+    border-radius: 20px;
+  }
+  .table4-bg-x2{
+    flex:1;
+    background: #06060688;
+    padding-top:1.33em;
+    border:1px solid transparent;
+    border-radius: 20px;
+  }
+  
+  
+  .container {
+    display:flex;
+    flex-direction: column-reverse;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-top: 80px;
+  }
+  
+  
+  #quotes {
+    display:flex;
+    height: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  #quotes-container{
+    margin-top: 150px;
+    margin-bottom: 125px;
+    position: relative;
+  }
+  
+  #quote{
+    padding: 50px;
+    margin: 0px;
+    display: flex;
+    opacity: 1;
+    overflow: hidden;
+  }
+  #changequote-btn, #quoteset-two-btn{
+    cursor: pointer;
+  }
+
+  #author{
+      font-size: 0.7em;
+      opacity: 1;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-right: 20px;
+      padding:10px;
+      position: absolute;
+      right: 0px;
+      color:#0fcff1;
+
+  }
+  h5#author:hover{
+    color:#fff;
+  }
+
+  .footer{
+    margin-top: 8%;
+    padding:1em;
+    width: 100%; 
+    max-width: 100%; 
+    background-color: rgba(255,255,255,0.2);
+  }
+  .heading-left-justify{
+    padding-right: 2rem;
+    padding-left: 3.125rem; 
+  }
+
+
+
+  .horizontalrule-aug{
+    color:#fff; 
+    margin: 2rem; 
+  }
+
+
+/* MY Styles  */
+  .augment-container{
+    margin-top:20px;
+    padding:2em 3em; 
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .glassbg{
+    padding: 2em 3em;
+    text-decoration: none;
+    background: #000;
+    box-shadow: inset 0 0 0 200px rgba(255,255,255,0.2);
+    filter: blur(10px);
+    z-index: -999;
+  }
+  .glassbg .glassbg-content{
+    z-index: 1; 
+    color: #fff; 
+  }
+
+
+  @media all and (max-width:672px) {
+    body{
+      height:100%;
+      background-color: #161616;
+      /* border: 10px solid #0fcff1; */
+      width: 100%;
+    }
+    .container{
+      display: flex;
+      flex: 1;
+      flex-direction: column !important;
+      justify-content: space-around;
+      margin-top: 60px;
+    }
+    .tcontent{
+      padding:3rem;
+    }
+    .tcontent li{
+      padding:10px; 
+      margin:15px;
+      list-style: none;
+    }
+    .table1 {
+      flex:1;
+      background:#00000099;
+      padding-top:1.33em;
+    }
+    
+    .table2 {
+      flex:1;
+      background:#33333399;
+      padding-top:1.33em;
+    }
+  }
+
+  

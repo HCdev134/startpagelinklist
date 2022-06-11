@@ -1,0 +1,72 @@
+
+.page-padding-sm{
+    padding:2rem 3rem; 
+}
+
+.page-margin-xsm{
+    margin: 8px; 
+}
+/* Cosmetic classes that require looking at :root selector for theming */
+
+/* Adds Margin and Padding to Greeting Subheading */
+.page-name-custom {
+    background-color: transparent; 
+    border: none;
+    padding: 0.5em 1em; 
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 900;
+    letter-spacing: 4px;
+    margin: 4px 2px;
+
+  }
+
+.page-button-btn {
+    background-color: transparent;
+    color: #bd2552;
+    background-color: #e8a64f;
+    text-align: center;
+    transition: 0.29s;
+    border: 1px solid transparent;
+    border-radius: 12px;
+
+    height: 100%; 
+  }
+  
+  .page-button-btn:hover {
+      opacity: 1; 
+      background:#e8a64f33;
+      
+    }
+
+    /* NAVIGATION, Navigation */
+    /* Navigation for index.html */
+   
+    .page-navbar{
+        background-color: #e8a64f;
+        color:#fff; 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size:22px;
+        flex-direction: column;
+    }
+    ul.page-nav-list{
+        list-style-type: none;
+    }
+    ul.page-nav-list .page-list-item{
+        display: inline-block;
+        padding: 8px 12px; 
+    }
+    .page-list-item a:hover{
+        color:#161515a2;
+    }
+    .page-navbar a{
+        color: #fff;
+        text-decoration: none;
+    }
+    @media all and (max-width:672px) {
+        .page-navbar{
+            flex-direction: column;
+        }
+    }

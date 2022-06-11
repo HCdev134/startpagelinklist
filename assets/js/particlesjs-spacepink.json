@@ -1,0 +1,110 @@
+{
+  "particles": {
+    "number": {
+      "value": 119,
+      "density": {
+        "enable": true,
+        "value_area": 400.3
+      }
+    },
+    "color": {
+      "value": "#00f7ff"
+    },
+    "shape": {
+      "type": ["circle","polygon"],
+      "stroke": {
+        "width": 2,
+        "color": "#0fcff1"
+      },
+      "polygon": {
+        "nb_sides": 5
+      },
+      "image": {
+        "src": "",
+        "width": 90,
+        "height": 100
+      }
+    },
+    "opacity": {
+      "value": 0.12,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 1,
+        "opacity_min": 0.12975743469551607,
+        "sync": false
+      }
+    },
+    "size": {
+      "value": 1,
+      "random": true,
+      "anim": {
+        "enable": true,
+        "speed": 1,
+        "size_min": 0.2,
+        "sync": false
+      }
+    },
+    "line_linked": {
+      "enable": true,
+      "distance": 250,
+      "color": "#00f7ff",
+      "opacity": 0.530,
+      "width": 0.099
+    },
+    "move": {
+      "enable": true,
+      "speed": 0.5,
+      "direction": "bottom",
+      "random": true,
+      "straight": false,
+      "out_mode": "out",
+      "bounce": true,
+      "attract": {
+        "enable": false,
+        "rotateX": 4444,
+        "rotateY": 3199
+      }
+    }
+  },
+  "interactivity": {
+    "detect_on": "canvas",
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "push"
+      },
+      "onclick": {
+        "enable": true,
+        "mode": "repulse"
+      },
+      "resize": true
+    },
+    "modes": {
+      "grab": {
+        "distance": 109.48283552434167,
+        "line_linked": {
+          "opacity": 1
+        }
+      },
+      "bubble": {
+        "distance": 250,
+        "size": 3,
+        "duration": 0.4865903801081852,
+        "opacity": 0.12164759502704629,
+        "speed": 3
+      },
+      "repulse": {
+        "distance": 56.76887767928827,
+        "duration": 0.4
+      },
+      "push": {
+        "particles_nb": 4
+      },
+      "remove": {
+        "particles_nb": 2
+      }
+    }
+  },
+  "retina_detect": true
+}

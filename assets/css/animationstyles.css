@@ -1,0 +1,109 @@
+/* THEME: 
+
+color_Scheme: 
+
+
+Main Container Color = #00000088*/
+
+.box-wrapper{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    min-height:45vh;
+    background: transparent;
+    color: #bd2552;
+}
+.box-container{
+    position:relative;
+    max-width:100%;
+    width:400px;
+    height:400px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #454545;
+    overflow: hidden;
+    padding:4rem;
+}
+.box-container::before{
+    content: "";
+    position: absolute;
+    width: 200px;
+    height:140%;
+    background: linear-gradient(#0caed6df, #e8a64f, );
+    animation: borderanimate 8s linear; 
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    
+  
+}
+.box-container::after{
+    content:"";
+    position: absolute;
+    background: #454545;
+    inset: 7px;
+  
+}
+.box-content-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:#454545;
+    color:#fff;
+    padding: 1rem;
+}
+.box-content-card p{
+    width:360px;
+    border:2px solid #0caed6df;
+    padding:0.75rem;
+
+}
+/* .box-container::before:hover{
+    animation: borderanimate 1306ms linear; 
+    animation-iteration-count: 1;
+} */
+.animate-home-icon{
+    animation:animatehomeicon 3000ms linear;
+    animation-iteration-count: 1;
+
+}
+@keyframes animatehomeicon {
+    0%{
+        color:#fff;
+    }
+    50%{
+        color:#bd2552;
+    }
+    100%{
+        color: #0caed6df;
+    }
+}
+@keyframes borderanimate {
+    0%{
+        transform:rotate(0deg);
+        background: linear-gradient(#e8a64f, #0caed6df);
+        
+    }
+    25%{
+        background: linear-gradient(#0caed6df, #bd2552);
+        
+    }
+    50%{
+        background: linear-gradient(#e8a64f, #bd2552);
+        
+    }
+    90%{
+       background: linear-gradient(#0caed6df, #e8a64f);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.box-container h5{
+    position: relative;
+    color:#fff;
+    font-size:2em;
+    z-index: 10;
+    text-align: center;
+    padding:0.25rem;
+}

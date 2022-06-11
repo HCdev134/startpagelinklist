@@ -1,0 +1,1 @@
+const diaryQuotes = ["Not only do i have to miss out on ONE childhood but now i get to miss out on two. Both the One i lived in CA and the one i could have lived in LAF with the homies k, thats messed up man :( @~HC", "Feb 13 2022 - 3 Unforgivable things have been done to me @HC"]; 
