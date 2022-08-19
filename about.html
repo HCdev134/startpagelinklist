@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linkss</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="./main.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/nav-menutwo.css">
+
+</head>
+<body><header>
+  <div class="container">
+  
+   
+    <h1 class="logo mt-5 text-center">Bands<span>Archive</span></h1>
+
+
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html"><i class="fa fa-home site-nav--icon"></i>Home</a></li>
+        <li><a href="about.html"><i class="fa fa-info site-nav--icon"></i>About</a></li>
+        <li><a href="links.html"><i class fa fa-info site-nav--icon"></i>Archive</a></li>
+        <li><a href="links.html"><i class="fa fa-pencil site-nav--icon"></i>Lists</a></li>
+        <li><a href="concept.html"><i class="fa fa-usd site-nav--icon"></i>Concepts</a></li>          
+        <li><a href=""><i class="fa fa-envelope site-nav--icon"></i>Contact</a></li>
+        <li><a href=""><i class="fa fa-envelope site-nav--icon"></i>Attributions</a></li>
+      </ul>
+    </nav>
+    
+    <div class="menu-toggle">
+      <div class="hamburger"></div>
+    </div>
+    
+  </div>
+  
+  </header>
+
+    
+    
+  <div class="container bg-light text-center my-5 p-2">
+    <h1 class="text-dark">About Us and Data Transparency</h1>
+  </div>
+<div class="container">
+    <div class="row">
+      <h2>Video and Playlist Data Feed</h2>
+      <p class="project-semver-description">
+        version 0.0.1 - "startpage" Theme By HCX-HXC
+        <hr>
+        version 0.0.2 - Raw Data feed archive of bands from many different sources
+        <hr class="alldogsgotoheaven">
+        version 0.1.0 - Data Feed Aggregated, UI explained, modal for directions
+        <hr>
+        WIP: Setting up some type of redundant source, or scraping all of the data to collect locally,
+        <hr>
+        Use Case: A lot of data comes from myspace, and from youtube playlists.
+        Need Data redundancy because youtube playlists often fail to load.
+        And we all know many good songs were lost in myspaces database migration
+      </p>
+    </div>
+
+    
+    <div class="pg-archive pg-feed-container">
+      Data Transparency: We don't log, we don't geolocate, we don't fingerprint. 
+      <hr>
+      This is a static site for archival purposes 
+      <hr>
+      All Content Creators are properly attributed 
+      <hr>
+      All other archivers from which material has been aggregated are properly credited and have proper attributions
+      <!-- Contact me description for adding and removal of content -->
+    </div>
+
+  </div>
+
+  
+
+    <script src="./assets/js/JQuery.js"></script>
+    <script src="./assets/js/navMenuTwo.js"></script>
+    <script>
+      $(document).ready(function(){
+
+        var pgContainer = $("div.container");
+        var pgHeading = $("h1.text-dark");
+        // pgHeading.fadeOut(4000, false); 
+        // console.log(pgContainer); 
+
+        // pgContainer.fadeIn(4000, true);
+
+
+      })
+    </script>
+
+   
+</body>
+</html>
